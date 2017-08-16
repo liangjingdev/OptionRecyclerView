@@ -17,8 +17,7 @@ import java.util.List;
 /**
  * Created by liangjing on 2017/8/16.
  * <p>
- * function:实现：RecyclerVIew  列表类型--Grid 列表控件方向--垂直  列数--1列
- * 增加一个顶部和一个底部Item(实现上拉加载下拉刷新功能)
+ * function:实现：RecyclerVIew  列表类型--Grid 列表控件方向--垂直  列数--1列 (实现下拉刷新功能)
  */
 public class Demo1 extends AppCompatActivity {
 
