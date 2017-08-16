@@ -14,7 +14,7 @@ allprojects {
 * 2、
 ```javascript
 dependencies {
-	        compile 'com.github.liangjingdev:OptionRecyclerView:6827835788'
+	        compile 'com.github.liangjingdev:OptionRecyclerView:6c1beea369'
 	}
 ```
 
