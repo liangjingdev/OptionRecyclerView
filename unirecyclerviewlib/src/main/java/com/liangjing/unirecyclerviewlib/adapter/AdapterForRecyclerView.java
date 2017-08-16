@@ -388,7 +388,7 @@ public abstract class AdapterForRecyclerView<T> extends RecyclerView.Adapter<Vie
         return mOnItemTouchListener;
     }
 
-    public void setmOnItemTouchListener(OnItemTouchListener mOnItemTouchListener) {
+    public void setOnItemTouchListener(OnItemTouchListener mOnItemTouchListener) {
         this.mOnItemTouchListener = mOnItemTouchListener;
     }
 
