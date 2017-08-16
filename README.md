@@ -170,7 +170,8 @@ AdapterForRecyclerView<数据类型>（上下文，数据集合，item的布局�
 //RecyclerView
 mRv.setAdapter(new AdapterForRecyclerView<String>(this, mData, R.layout.item_tv_list) {
     @Override
-    public void convert(LQRViewHolderForRecyclerView holder, String item, int position) {
+    //此处的‘item‘’是当前位置所对应的给其视图填充数据的对象。
+    public void convert(LQRViewHolderForRecyclerView holder, String item, int position) {
         holder.setText(R.id.tv, item);
     }
 });
